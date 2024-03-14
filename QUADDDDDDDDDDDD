@@ -1,0 +1,12 @@
+import java.lang.Math;
+
+public class Quad_Form_Calc {
+  double a;
+  double b;
+  double c;
+
+  public void solve(double a, double b, double c) {
+    System.out.println((-b + sqrt((Math.pow(b, 2) - (4 * a * c))) / 2 * a))
+    System.out.println((-b - sqrt((Math.pow(b, 2) - (4 * a * c))) / 2 * a))
+  {
+}
